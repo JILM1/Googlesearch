@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:52828/imgsearch.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Search</title>
+        <link href="./Search_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+         <meta name="viewport" content="width=device-width, initial-scale=1"> 
+         <style>
+            
+            .imag{
+                height: auto;
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                max-width: 300px;
+            }
+            .write {
+                padding: 0.5rem;
+                margin-bottom: 0rem;
+                border: none;
+                border-radius: 3px;
+                width: 500px;
+            }
+            .btn-dark{
+                height: auto;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, 50%);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 150px;
+
+            }
+            
+            .search-page{
+                height: auto;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 30px;
+                    }
+             </style>
+        </head>
+        <body style="background-color: rgb(31, 32, 36)" data-new-gr-c-s-check-loaded="14.1113.0" data-gr-ext-installed=""><body2>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <img class="Glogo" src="./Search_files/go1.png" alt="go1ex" display="block" margin="0 auto" width="50" <div="">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="http://127.0.0.1:52828/index.html#">Home</a>
+                      <a class="nav-link" href="https://www.google.com/advanced_search/q">Advanced Search</a>
+                      <a class="nav-link" href="http://127.0.0.1:52828/imgsearch.html#">Image Search</a>
+                    </div>
+                  </div>
+                
+              </nav>
+           </body2>
+    
+            <div class="search-page">
+            <form action="https://www.google.com/search/">
+                <input style="color:rgb(3, 3, 3)" "write"="" type="text" name="q" placeholder="Search">
+                
+                    <input type="file" id="myFile" name="filename">
+                    <button type="submit" class="btn btn-dark">Image Search</button>
+                  </form>
+            
+        </div>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+    <div>
+            <img class="imag" src="./Search_files/google.png" alt="google logo" display="block" margin="0 auto" width="100%">
+        </div>
+    
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+  div.grammarly-desktop-integration {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+  }
+
+  div.grammarly-desktop-integration:before {
+    content: attr(data-content);
+  }
+</style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>

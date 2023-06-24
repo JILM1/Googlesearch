@@ -69,9 +69,12 @@
            </body2>
     <body style="background-color: rgb(31, 32, 36)">
             <div class="search-page">
-            <form action="https://www.google.com/search">
+            <form action="https://www.google.com/search/">
                 <input style ="color:rgb(3, 3, 3)" "write" type="text" name="q" placeholder="Search">
-                <button class="btn btn-dark" type="submit">Google Search</button>
+                <form action="/action_page.php">
+                    <input type="file" id="myFile" name="filename">
+                    <button type="submit" class="btn btn-dark" type="submit">Image Search</button>
+                  </form>
             </form>
         </div>
     </body>
