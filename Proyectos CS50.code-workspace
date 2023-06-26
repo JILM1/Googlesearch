@@ -10,5 +10,7 @@
 			"path": "../../../Downloads/bootstrap-5.3.0-alpha3-dist 3/js"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Googlesearch"
+	}
 }
